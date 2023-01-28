@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <title>All Things Colorado Contact</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+#contactinfo{
+	width:325px;
+	margin: 40px 0 0 0;
+	text-align:center;
+}
+#contactinfo p{
+	color:white;
+}
+#subscribeheader{
+	font-size:30px;
+	text-align:center;
+}
+#leftimage{
+	text-align:center;
+	margin: 40px 0 0 0;
+}
+#bottomlinks{
+	width:100%;
+	height:100px;
+	text-align:center;
+
+}
+#bottomlinks a{
+	font-size:21px;
+	margin: 0 25px 0 0;
+	text-decoration:none;
+	color:#ff0066;
+}
+#bottomlinks a:hover {
+  color: white;
+}
+header p {
+	text-align:center;
+	font-size:38px;
+	color:white;
+}
+
+@media screen and (min-width: 600px){
+#contactinfo {	
+	width:450px;
+	height:400px;
+	}
+#leftimage{
+	text-align:center;
+	width:600px;
+	height:400px;
+}
+main img{
+	width:450px;
+}
+main div{
+	float:left;
+	height: 60vh;
+}
+#bottomlinks{
+	width:100%;
+	height:100px;
+	text-align:center;
+
+}
+#bottomlinks a{
+	font-size:21px;
+	margin: 0 25px 0 0;
+	text-decoration:none;
+	color:#ff0066;
+}
+#bottomlinks a:hover {
+  color: white;
+}
+#contactinfo{
+	margin: 0;
+}
+footer{
+	color:white;
+	margin: 650px 0 0 0;
+	height: 100px;
+
+}
+}
+  </style>
+  
+</head>
+
+<body>
+	<div id="wrapper">
+	<nav>
+	<!--Responsive top nav-->
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<a href="whatsnew.html">What's New?</a>
+		<a href="gallery.html">Photo Gallery</a>
+		<a href="merch.html">Merchandise</a>
+		<a href="#contact" class="active">Contact</a>
+		<a href="#about">About</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i></a>
+	</div>
+
+	<div style="padding-left:16px">
+	</div>
+	<!--End Responsive top nav-->
+    </nav>
+	
+	<header>
+		<h1>All Things Colorado</h1>
+		<p>Contact</p>
+	</header>
+	
+	
+    <main>
+	<div id="bottomlinks">
+	<a href="www.twitter.com">Twitter</a>
+	<a href="www.instagram.com">Instagram</a>
+	<a href="www.facebook.com">Facebook</a>
+	</div>
+	<div id="leftimage">
+	<img src="images/youngMikeFish2.jpg" alt="Boy showing off two fish"> 
+	</div>
+    <div id="contactinfo">  
+		<p id="subscribeheader">Subscribe to our monthly newsletter!</p>
+		<form action="demo.php" method="post">
+		<p>Name <input type="text" name="Name" required></p>
+		<p>E-mail <input type="text" name="E-mail" required></p>
+		
+		<p>What are your interests?</p>
+		<input type="checkbox" id="Hiking" name="Hiking" value="Hiking">
+		<label for="Hiking"> Hiking</label><br>
+		<input type="checkbox" id="Cycling" name="Cycling" value="Cycling">
+		<label for="Cycling"> Cycling</label><br>
+		<input type="checkbox" id="Fishing" name="Fishing" value="Fishing">
+		<label for="Fishing"> Fishing</label><br>
+		<input type="checkbox" id="WinterSports" name="Winter Sports" value="Winter Sports">
+		<label for="WinterSports"> Winter Sports</label><br>
+		
+		<p>How often would you like to recieve updates?</p>
+		<input type="radio" id="Weekly" name="Weekly" value="Weekly">
+		<label for="Weekly">Weekly</label><br>
+		<input type="radio" id="Monthly" name="Monthly" value="Monthly">
+		<label for="Monthly">Monthly</label><br>
+		
+		<p><button type="submit" value="Submit">Subscribe</button>&nbsp;&nbsp;<button type="reset" value="Reset">Clear Form</button></p>
+		</form>
+		
+	</div>
+
+    </main>
+      <footer>
+      <p> <script>document.write(new Date().getFullYear())</script> &copy; Michael Peterson</p>
+	  <p>mtpete33@gmail.com</p>
+    </footer>
+  </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>All Things Colorado Merchandise</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  
+/* Mobile friendly CSS goes below */
+
+#headerText{
+	font-size:20px;
+}
+table, th, td {
+  border: 1px solid white;
+  color:white;
+}
+th{
+	color:#A695FC;
+}
+table {
+	width:98%;
+	margin: 0 auto;
+}
+body {
+	text-align:center;
+}
+footer{
+	color:white;
+}
+
+/*Full size web page CSS goes inside media query below*/
+@media screen and (min-width: 600px){
+body{
+	text-align:center;
+}
+table {
+	width:70%;
+	margin: 0 auto;
+}
+}
+
+  </style>
+</head>
+
+<body>
+	<div id="wrapper">
+	<nav>
+	<!--Responsive top nav-->
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<a href="whatsnew.html">What's New?</a>
+		<a href="gallery.html">Photo Gallery</a>
+		<a href="#merch" class="active">Merchandise</a>
+		<a href="contact.html">Contact</a>
+		<a href="#about">About</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i></a>
+	</div>
+
+	<div style="padding-left:16px">
+	</div>
+	<!--End Responsive top nav-->
+    </nav>
+	
+	<header>
+		<h1>All Things Colorado</h1>
+		<p>Merchandise</p>
+		<p id="headerText">
+		Check out our All Things Colorado Merch here!
+		</p>
+	</header>
+	
+    <main>
+	<div id="priceTable">
+	<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Size</th>
+      <th>Price</th>
+      <th>Availability</th>
+      <th>Review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T-Shirt</td>
+      <td>XS - XXL</td>
+      <td>$14.99 - $24.99</td>
+      <td>In Stock</td>
+      <td>4.7/5 Stars</td>
+    </tr>
+    <tr>
+      <td>Baseball Cap</td>
+      <td>S-L Flexfit</td>
+      <td>$19.99</td>
+      <td>Out Of Stock</td>
+      <td>4.8/5 Stars</td>
+    </tr>
+    <tr>
+      <td>ATC Sticker</td>
+      <td>One Size</td>
+      <td>$1.99</td>
+      <td>In Stock</td>
+      <td>No Reviews</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+    </main>
+  </div>
+  
+    <footer>
+      <p> <script>document.write(new Date().getFullYear())</script> &copy; Michael Peterson</p>
+	  <p>mtpete33@gmail.com</p>
+    </footer>
+
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+/*!
+ * iOS doesn't respect the meta viewport tag inside a frame
+ * add a link to the debug view (for demo purposes only)
+ */
+if (/(iPhone|iPad|iPod)/gi.test(navigator.userAgent) && window.location.pathname.indexOf('/full') > -1) {
+  var p = document.createElement('p');
+  p.innerHTML = '<a target="_blank" href="https://s.codepen.io/dbushell/debug/wGaamR"><b>Click here to view this demo properly on iOS devices (remove the top frame)</b></a>';
+  document.body.insertBefore(p, document.body.querySelector('h1'));
+}
+
+</script>
+
+</body>
+</html>

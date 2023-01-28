@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>All Things Colorado Photo Gallery</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  
+/*Mobile friendly CSS goes below*/
+#maintext{
+	color:white;
+}
+header p {
+	text-align:center;
+	font-size:38px;
+	color:white;
+}
+#imagegrid{
+	width:350px;
+	text-align:center;
+}
+img {
+	border: solid 4px white;
+}
+#submitPhotosText {
+	font-size:20px;
+}
+header p a{
+	color: #ff0066;
+}
+main p {
+	font-size:16px;
+	text-align:center;
+}
+footer{
+	color:white;
+}
+/*Full size web page CSS goes inside media query below*/
+@media screen and (min-width: 600px){
+body{
+	text-align:center;
+}
+
+#imagegrid{
+	width:1150px;
+	text-align:center;
+}
+
+/*
+.thumbnail { 
+top:-50px; 
+left:-35px; 
+z-index:999; 
+cursor: pointer; 
+-webkit-transition-property: all; 
+-webkit-transition-duration: 0.2s; 
+-webkit-transition-timing-function: ease; 
+} 
+
+change the number below to scale to the appropriate size 
+.thumbnail:hover { 
+	transform: scale(1.7); 
+	border: solid 4px white;
+}*/
+.short{
+	width:275px;
+	height:225px;
+	border: solid 4px white;
+}
+.tall{
+	width:275px;
+	height:375px;
+	border: solid 4px white;
+}
+}
+
+  </style>
+</head>
+
+<body>
+	<div id="wrapper">
+	<nav>
+	<!--Responsive top nav-->
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<a href="whatsnew.html">What's New?</a>
+		<a href="gallery.html" class="active">Photo Gallery</a>
+		<a href="merch.html">Merchandise</a>
+		<a href="contact.html">Contact</a>
+		<a href="#about">About</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i></a>
+	</div>
+
+	<div style="padding-left:16px">
+	</div>
+	<!--End Responsive top nav-->
+    </nav>
+	
+	<header>
+		<h1>All Things Colorado</h1>
+		<p>Photo Gallery</p>
+		<p id="submitPhotosText">We would love to see your outdoor photos, and post them here on our site! If you have photos of you in the great outdoors of Colorado doing something you love, please feel free to e-mail them to us here! <a href="mailto:mtpete33@gmail.com?subject=I%20want%20to%20share%20my%20photos%20with%20All%20Things%20Colorado!&body=Attach%20your%20photos,%20and%20write%20a%20brief%20description%20of%20the%20location%20and%20what's%20going%20on%20in%20your%20photo%20HERE.%20Thanks%20for%20sharing!">Submit Your Photos</a>
+	</header>
+	
+	
+    <main>
+	<p>Click photos to enlarge</p>
+	<div id="imagegrid">
+    <a href="images/arkansasRiver.jpg" target = "_self"><img class="tall thumbnail" src="images/arkansasRiver.jpg" alt="Arkansas River"></a>
+    <a href="images/barryDockFish.jpg" target = "_self"><img class="tall thumbnail" src="images/barryDockFish.jpg" alt="Fisherman"></a>
+	<a href="images/jakeFish.jpg" target = "_self"><img class="tall thumbnail" src="images/jakeFish.jpg" alt="Fisherman"></a>
+	<a href="images/lureFace.jpg" target = "_self"><img class="tall thumbnail" src="images/lureFace.jpg" alt="Man with lure stuck on face"></a>
+	
+	<a href="images/friendsGolf.jpg" target = "_self"><img class="short thumbnail" src="images/friendsGolf.jpg" alt="Golfers on golf course"></a>
+	<a href="images/blueHeronSunset.jpg" target = "_self"><img class="short thumbnail" src="images/blueHeronSunset.jpg" alt="A bird at a lake at sunset"></a>
+    <a href="images/friendWithFish.jpg" target = "_self"><img class="short thumbnail" src="images/friendWithFish.jpg" alt="Fisherman"></a>
+    <a href="images/houseDeer1.jpg" target = "_self"><img class="short thumbnail" src="images/houseDeer1.jpg" alt="Deer in a front yard"></a>
+	
+	<a href="images/fodderShock.jpg" target = "_self"><img class="tall thumbnail" src="images/fodderShock.jpg" alt="A fodder shock in a yard"></a>
+    <a href="images/tomBridge.jpg" target = "_self"><img class="tall thumbnail" src="images/tomBridge.jpg" alt="Fisherman"></a>
+    <a href="images/cindyFish.jpg" target = "_self"><img class="tall thumbnail" src="images/cindyFish.jpg" alt="Fisherwoman"></a>
+    <a href="images/fishOnGrill.jpg" target = "_self"><img class="tall thumbnail" src="images/fishOnGrill.jpg" alt="Fish on a grill"></a>
+    
+	<a href="images/houseDeer2.jpg" target = "_self"><img class="short thumbnail" src="images/houseDeer2.jpg" alt="Deer in front yard"></a>
+	<a href="images/pinkFlower.jpg" target = "_self"><img class="short thumbnail" src="images/pinkFlower.jpg" alt="A pink flower"></a>
+    <a href="images/rickFish.jpg" target = "_self"><img class="short thumbnail" src="images/rickFish.jpg" alt="Fisherman"></a>
+	<a href="images/cindyBridge.jpg" target = "_self"><img class="short thumbnail" src="images/cindyBridge.jpg" alt="Fisherman"></a>
+    
+</div>
+
+    </main>
+  </div>
+  
+    <footer>
+      <p> <script>document.write(new Date().getFullYear())</script> &copy; Michael Peterson</p>
+	  <p>mtpete33@gmail.com</p>
+    </footer>
+
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>All Things Colorado What's New</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  
+/*Mobile friendly CSS goes below*/
+main a {
+	color:#ff0066;
+}
+#submitButton {
+	text-align: center;
+}
+body{
+	text-align:center;
+}
+.aboutText{
+	margin-top: 8em;
+}
+#mikeFishing{
+	width:10em;
+}
+hr {
+	background-color:#ff0066;
+}
+h2 {
+	color:#A695FC;
+}
+.card{
+	color:white;
+}
+h5 {
+	color:white;
+}
+footer{
+	color:white;
+}
+/*Full size web page CSS goes inside media query below*/
+@media screen and (min-width: 600px){
+.cliffImage {
+	height:150px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald";
+  background-color:#000033;
+  text-align:left;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #000033;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  border: white 4px solid;
+  background-color: #000022;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#followCard {
+	text-align:center;
+}
+
+#aboutMe img{
+	height:190px;
+	width:165px;
+	text-align:center;
+}
+hr {
+	display:none;
+}
+.aboutText{
+	margin-top: 8em;
+}
+
+}
+  </style>
+</head>
+
+<body>
+
+	<div id="wrapper">
+	<nav>
+	<!--Responsive top nav-->
+		<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<a href="whatsnew.html" class="active">What's New?</a>
+		<a href="gallery.html">Photo Gallery</a>
+		<a href="merch.html">Merchandise</a>
+		<a href="contact.html">Contact</a>
+		<a href="#about">About</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i></a>
+		</div>
+
+		<div style="padding-left:16px">
+		</div>
+	</nav>
+	<!--End Responsive top nav-->
+	
+	<header>
+		<h1>All Things Colorado</h1>
+		<p>What's New?</p>
+	</header>
+	
+	
+    <main>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>HIKE AT NORTH TABLE MOUNTAIN</h2>
+      <h5>Posted 10/30/2022</h5>
+      <div class="fakeimg" style="height:200px; text-align:center;"><a href="images/northTableCliffHighQ.jpg" class="cliffImage" target = "_self">
+			<img src="images/northTableCliffHighQ.jpg" alt="Cliff in Golden,CO">
+			</a></div>
+      <p>This summer I hiked at North Table Mountain and took this photo. The trail at the beginning is very steep, but the payoff of the view at the top
+			is worth it! About 20 minutes of hiking with a couple breaks to catch your breath and you reach the top of North Table. Then, off to the right
+			side there is a path to go a little bit further up for a picture of this cool cliff.</p>
+			<h4>Know before you go:</h4>
+				<ul>
+					<li>Steep trail, exceeding 25% grading to get to the top</li>
+					<li>Rattlesnakes can be found in the area</li>
+					<li>Wear sunscreen, protective clothing, becuase there's no shade at the top</li>
+				</ul>
+				<p>References: Check out the <a href="https://www.cityofgolden.net/play/recreation-attractions/trails/north-table-mountain-trail/">North Table Mountain Hiking 
+				page</a> on the City Of Golden website</p>
+    </div>
+	<hr>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+	<hr>
+      <h2>About Me</h2>
+		<div class="fakeimg" id="aboutMe" style="height:100px;"><a href="images/BFDDD582-4E2B-4CE8-BF87-6F231016CB0E.JPG" target="_self"> 
+			<img id="mikeFishing" src="images/BFDDD582-4E2B-4CE8-BF87-6F231016CB0E.JPG" alt="Michael Fishing at Montgomery Reservoir">
+			</a>
+		</div>
+      <p class="aboutText">I'm a curious Coloradan, fisher, hiker, and web designer who likes to get and give advice about exploring our great state.</p>
+    </div>
+    <div class="card">
+	<hr>
+      <h2>Popular Post</h2>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div id="followCard" class="card">
+	<hr>
+      <h2>Follow Me</h2>
+			<p>Sign up for blog updates!<p>
+			<p>E-mail: <input type="text" required><p>
+			<button id="submitButton">Submit</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    </main>
+  </div>
+  
+    <footer>
+      <p> <script>document.write(new Date().getFullYear())</script> &copy; Michael Peterson</p>
+	  <p>mtpete33@gmail.com</p>
+    </footer>
+
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+</script>
+
+</body>
+</html>

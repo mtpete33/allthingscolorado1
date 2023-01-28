@@ -1,0 +1,55 @@
+body{
+	background-color:#99ebff;
+	color:#000000;
+	}
+header{
+	background-color:#99ebff;
+}
+h1{
+	font-family:"Georgia", "Times New Roman", serif;
+	text-align:center;
+
+}
+h2:hover{
+	font-size: 2em;
+}
+h2{
+	text-align:center;
+	font-family:"Georgia";
+	transition: font-size 0.3s;
+}
+.site1{
+	border: 3px solid;
+	border-radius:30px;
+	margin: 0 auto;
+	width:60%;
+	font-family:"Verdana", "Arial", sans-serif;
+}
+.site2{
+	border: 3px solid;
+	border-radius:30px;
+	margin: 0 auto;
+	width:60%;
+	font-family:"Verdana", "Arial", sans-serif;
+}
+ul {
+	line-height:160%;
+}
+
+footer{
+	text-align:center;
+	margin: 50px;
+}
+
+h3{
+	text-align:center;
+	}
+
+progress{
+	display:block;
+	margin: 0 auto;
+	}
+
+#percentprogress {
+	text-align:center;
+}

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>All Things Colorado</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+.topimage{
+	width:100%
+}
+#mainimage {
+	width:345px;
+	margin: 40px 0 0 0;
+	text-align:center;
+}
+#maintext a {
+	color:#ff0066;
+}
+#maintext {
+	font-family:"Montserrat";
+	color: white;
+}
+main img{
+	text-align:center;
+}
+header p {
+	text-align:center;
+	font-size:38px;
+	color:white;
+}
+.welcome{
+	height:10px;
+	color:white;
+	font-size:2em;
+	text-align:center;
+}
+.rainbow-text {
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+footer{
+	margin: 150px 0 0 0;
+	color:white;
+}
+
+@media screen and (min-width: 600px){  
+#toplogo {
+	color: white;
+	font-size: 1.5em;
+	margin:20px -200px 0 0;
+}
+#mainimage{
+	width:450px;
+	margin: 25px 0 0 0;
+}
+#maintext{
+	width:600px;
+	padding:10px 10px 10px 80px;
+}
+main img{
+	width:450px;
+}
+main div{
+	float:left;
+	height: 60vh;
+}
+.welcome{
+	height:10px;
+	color:white;
+	font-size:6em;
+	text-align:center;
+	padding: 0 0 0 2em;
+}
+.colorcolo{
+	font-size:3em;
+}
+#rivervideo {
+	width: 750px;
+	height: 425px;
+	margin:  550px 0 120px 200px;
+	border: solid white 3px;
+	text-align: center;
+}
+
+}
+  </style>
+</head>
+
+<body>
+	<div id="wrapper">
+	<nav>
+	<!--Responsive top nav-->
+	<div class="topnav" id="myTopnav">
+		
+		<a href="index.html" class="active">Home</a>
+		<a href="whatsnew.html">What's New?</a>
+		<a href="gallery.html">Photo Gallery</a>
+		<a href="merch.html">Merchandise</a>
+		<a href="contact.html">Contact</a>
+		<a href="#about">About</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i></a>
+		
+	</div>
+	
+	<div style="padding-left:16px">
+	</div>
+	<!--End Responsive top nav-->
+    </nav>
+	
+	<header>
+		<h1>All Things Colorado</h1>
+		<p>Experience the great outdoors</p>
+	</header>
+	
+	
+    <main>
+	<img class="topimage" src="images/goldenLandscape.jpg" alt="Landscape photo of Golden,CO">
+	<p class="welcome">Welcome...</p>
+	<div id="mainimage">
+	<img src="images/mike-hike-optimized.jpg" alt="Man hiking on South Table Mountain in Golden, CO"> 
+	</div>
+	
+    <div id="maintext">  
+	
+	  <p>
+        ...to <strong>All Things Colorado</strong>. This site is dedicated to appreciating the beautiful outdoors
+		of the Centennial State.</p>
+      <p>
+        Here you can find inspiration to get out of the house and make the most of your time here. I will share
+		photos and information related to anything done outdoors including but not limited to hiking, fishing, biking,
+		dirt-biking, skiing and snowboarding, rock climbing, leaf peeping, and even some of Colorado's cool history.</p>
+      <p>
+        Visit the <strong><a href="gallery.html">Photo Gallery</a></strong> to see pictures of people doing what brings them joy in the great outdoors,
+		and check out the <strong><a href="whatsnew.html">What's New?</a></strong> page to get updates on things to do, places to see, and maybe find out about
+		a new secret fishing hole or hiking trail.</p>
+	  <p>The opportunities are endless and the outdoors are waiting for you. Find your inspiration here, and then go out
+	  and truly enjoy <span class="colorcolo"><span class="rainbow-text">Colorful</span> Colorado.</span></p>
+	</div>
+
+
+    </main>		
+	<div id="rivervideo">
+		 <video width="750px" 
+				height="425px" 
+				autoplay
+				controls
+				loop>
+  <source src="Colorado - 43186.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+Video by <a href="https://pixabay.com/users/joshuaworoniecki-12734309/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=43186">Joshua Woroniecki</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=43186">Pixabay</a>
+	</div>
+
+    <footer>
+
+      <p> <script>document.write(new Date().getFullYear())</script> &copy; Michael Peterson</p>
+	  <p>mtpete33@gmail.com</p>
+    </footer>
+
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
